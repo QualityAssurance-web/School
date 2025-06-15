@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blob"></div>
+  <header>
+    <img src="jij.jpg" alt="Profielfoto" class="profielfoto">
+    <h1></h1>
+    <p>Mijn naam is Ensar</p>
+    <button onclick="veranderTitel()">Klik hier!</button>
+  </header>
+
+  <section id="over-mij" class="fade-in">
+    <h2>Over mij</h2>
+    <p>
+      Ik ben een enthousiaste en leergierige professional met een passie voor groei en ontwikkeling. 
+      Ik werk graag samen, denk oplossingsgericht en sta open vo-
+    </p>
+
+    <button onclick="window.location.href='om.html';">Meer info</button>
+  </section>
+
+  <section id="vaardigheden" class="fade-in">
+    <h2>Mijn vaardigheden</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+    </ul>
+    <button onclick="window.location.href='vaardigheden.html';">Meer info</button>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <form onsubmit="verstuurFormulier(event)">
+      <input type="name" placeholder="Jouw naam" required>
+      <input type="email" placeholder="Jouw e-mail" required>
+      <input type="text" placeholder="Tekst" required>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

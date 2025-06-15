@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="jij.jpg" alt="Profielfoto" class="profielfoto">
+    <h1></h1>
+  </header>
+
+  <section id="over-mij" class="fade-in">
+    <button onclick="window.location.href='index.html';">Terug</button>
+    <h2>Over mij</h2>
+    <p>
+      Mijn naam is Ensar. Ik ben 18 jaar oud en vindt programmeren
+      als hobby erg leuk.
+      Ik ben iemand die graag leert en nieuwe dingen ontdekt. 
+      Ik werk met plezier samen met anderen en 
+      probeer altijd goed na te denken over oplossingen als er een probleem is. 
+      Nieuwe uitdagingen vind ik leuk, omdat ik daar veel van kan leren. 
+      Ik ben positief ingesteld en let goed op de details. 
+      Of het nu gaat om een project, 
+      samenwerken in een team of het bereiken van een doel, 
+      ik help graag en wil altijd mijn best doen om iets moois neer te zetten.
+    </p>
+      <div class="container">
+        <img src="python.webp" alt="Voorbeeld afbeelding" height="200">
+      </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <form onsubmit="verstuurFormulier(event)">
+    <input type="name" placeholder="Jouw naam" required>
+    <input type="email" placeholder="Jouw e-mail" required>
+    <input type="text" placeholder="Tekst" required>
+    <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
